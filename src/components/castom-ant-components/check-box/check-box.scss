@@ -1,0 +1,25 @@
+.transfer-filter-form__checkbox {
+  display: block;
+  text-indent: -29px;
+  margin-top: 27px;
+  margin-left: 29px !important;
+  &:first-child {
+    margin-top: 19px;
+  }
+  .ant-checkbox {
+    margin-right: 4px;
+    transform: scale(0.85);
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #002688;
+    border-color: #002688;
+  }
+  .ant-checkbox-inner {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+  }
+  .ant-checkbox-checked {
+    &:after {
+      border: 1px solid #002688;
+    }
+  }
+}

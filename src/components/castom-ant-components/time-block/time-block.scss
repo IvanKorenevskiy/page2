@@ -1,0 +1,24 @@
+.ant-time-picker-input {
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  color: rgba(255, 255, 255, 0.88);
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.56);;
+  border-radius: 4px 4px 0px 0px;
+  background: #2243A8;
+  height: 56px;
+  padding: 17px 15px 0 15px;
+}
+
+.ant-time-picker {
+  position: relative;
+  .ant-time-picker-icon {
+    margin-top: -5px;
+    right: 18px;
+  }
+  .castom-time-picker__select-arrow {
+    width: 9px;
+    height: 12px;
+    color: rgba(255, 255, 255, 0.56);
+  }
+}

@@ -1,0 +1,27 @@
+.header{
+  .date--wrapper {
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    color: rgba(255, 255, 255, 0.88);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.56);;
+    border-radius: 4px 4px 0px 0px;
+    background: #2243A8;
+    height: 56px;
+    padding: 17px 15px 0 15px;
+  }
+
+  .ant-calendar-picker {
+    width: 100% !important;
+    .ant-calendar-picker-icon {
+      right: 15px;
+      top: 41%;
+    }
+    .castom-date-picker__select-arrow {
+      width: 24px;
+      height: 24px;
+      fill:white;
+      fill-opacity:0.56;
+    }
+  }
+}

@@ -1,0 +1,209 @@
+.transfer-item-form__title {
+  display: flex;
+  padding: 14px 24px 11px 24px;
+  background-color: white;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.56);
+  justify-content: space-between;
+  .transfer-item-form__travel-policy-text--color {
+    color: #00BFA5;
+  }
+  .transfer-item-form__container {
+    align-items: center;
+    display: flex;
+  }
+  .transfer-item-form__place {
+    width: 18px !important;
+    height: 18px !important;
+    margin-bottom: 2px;
+    opacity: 1;
+    fill: rgba(0, 0, 0, 0.56);
+  }
+  .transfer-item-form__print {
+    width: 18px;
+    height: 18px;
+    margin-right: 16px;
+    margin-bottom: 2px;
+    opacity: 1;
+    fill: #002688;
+  }
+  .transfer-item-form__mail {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 2px;
+    opacity: 1;
+    fill: #002688;
+  }
+}
+
+.transfer-item-form__body {
+  padding: 0 24px 20px 24px;
+  margin-top: 1px;
+  background-color: white;
+  .transfer-item-form__container {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    &:nth-child(1) {
+      margin-right: 3%;
+    }
+    &:nth-child(2) {
+      margin-right: 3%;
+    }
+  }
+  .transfer-item-form__icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+    margin-bottom: 2px;
+    fill: black;
+    opacity:0.56;
+  }
+  .transfer-item-form__container--cost-text {
+    font-size: 20px;
+    letter-spacing: 0.15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.88);
+  }
+  .transfer-item-form__hr {
+    display: none;
+    width: calc(100% + 48px);
+    height: 1px;
+    margin-left: -24px;
+    margin-top: 15px;
+
+    background: rgba(0, 0, 0, 0.12);
+  }
+  .transfer-item-form__bottom-row--media-hide {
+    display: flex;
+  }
+  .transfer-item-form__bottom-row--media-show {
+    display: none;
+  }
+}
+
+.transfer-item-form__route-text {
+  margin-left: 12px;
+}
+.transfer-item-form__travel-policy-text {
+  margin-right: 31px;
+}
+
+.transfer-item-form__top-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+}
+
+.transfer-item-form__bottom-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+}
+
+.transfer-item-form__button {
+  width: 260px;
+  height: 36px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #002688;
+  color: #FFFFFF;
+  flex: 1;
+  padding: 0;
+
+  &:active {
+    background: #002688;
+    color: black;
+  }
+}
+
+@media (max-width: 940px) {
+  .transfer-item-form__title {
+    display: block;
+    .transfer-item-form__travel-policy-text {
+      margin-top: 7px;
+      margin-right: auto;
+    }
+    .transfer-item-form__print, .transfer-item-form__mail {
+      margin-bottom: -3px;
+    }
+  }
+  .transfer-item-form__body {
+    padding: 0 24px 18px 24px;
+    .transfer-item-form__top-row {
+      flex-wrap: wrap;
+    }
+    .transfer-item-form__container {
+      margin-right: 0 !important;
+      width: calc(50% - 12px);
+      flex: none;
+      &:first-child {
+        margin-bottom: -4px;
+      }
+      &:last-child {
+        width:100%;
+        margin-top: 12px;
+      }
+    }
+    .transfer-item-form__hr {
+      display: block;
+    }
+    .transfer-item-form__bottom-row--media-hide {
+        display: none;
+    }
+    .transfer-item-form__bottom-row--media-show {
+      display: block;
+    }
+    .transfer-item-form__bottom-row {
+      position: relative;
+      padding-top: 8px;
+      .transfer-item-form__button {
+        position: absolute;
+        top: 16px;
+        right: 0;
+      }
+    }
+  }
+}
+@media (max-width: 639px) {
+  .transfer-item-form__title {
+    padding: 14px 16px 11px 16px;
+    .transfer-item-form__route-text {
+      width: calc(100% - 39px);
+    }
+  }
+  .transfer-item-form__body {
+    padding: 0 16px 20px 16px;
+    .transfer-item-form__top-row {
+      display: block;
+      .transfer-item-form__container {
+        margin-top: 12px;
+        &:nth-child(1) {
+          margin-top: 0px;
+        }
+        &:nth-child(2) {
+          margin-top: 14px;
+        }
+      }
+    }
+    .transfer-item-form__bottom-row {
+      position: inherit;
+      .transfer-item-form__button {
+        width: 100%;
+        position: inherit;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .transfer-item-form__body .transfer-item-form__container {
+    width: 100%;
+  }
+
+}

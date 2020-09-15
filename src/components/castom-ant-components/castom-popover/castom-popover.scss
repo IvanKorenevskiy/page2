@@ -1,0 +1,17 @@
+.ant-popover-inner{
+  padding: 18px 18px 18px 18px;
+  border-radius: 16px 16px 16px 16px;
+  box-sizing: border-box;
+  width: 288px;
+}
+.ant-popover-inner-content {
+  height: 576px;
+
+  overflow: scroll;
+  padding: 0 6px 0 6px;
+  .transfer-filter-form__body {
+    padding: 0;
+  }
+}
+
+

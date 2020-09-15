@@ -1,0 +1,125 @@
+.footer {
+  margin-top: 74px;
+
+  &__line {
+    height: 1px;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+
+  &__top-row {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+  }
+
+  &__nav-container {
+    display: flex;
+    padding: 0;
+    margin-bottom: 16px;
+
+    .footer__nav-item {
+      margin-right: 53px;
+
+      .footer__service-name {
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.25px;
+        color: rgba(0, 0, 0, 0.56);
+      }
+
+      .footer__phone-number {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 29px;
+        letter-spacing: -0.6px;
+        color: rgba(0, 0, 0, 0.88);
+      }
+
+      .footer__post-address {
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.25px;
+        color: #002688;
+      }
+    }
+  }
+
+  &__bottom-container {
+    margin-top: 18px;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo-container {
+    height: 89px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__card-container {
+    display: flex;
+    flex-direction: column;
+
+    .footer__card-item {
+      display: flex;
+      justify-content: flex-end;
+
+      .footer__visa-logo {
+        margin-right: 16px;
+        width: 74px;
+        height: 40px;
+      }
+
+      .footer__mastercard-logo {
+        width: 56px;
+        height: 40px;
+      }
+    }
+
+    .footer__payment-security {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 1460px) {
+  .footer__nav-item:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 940px) {
+  .footer__nav-item {
+    display: none;
+  }
+  .footer__nav-item:first-child {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer__card-item {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .footer__top-row {
+    display: block;
+  }
+  .footer__bottom-container {
+    display: block;
+  }
+  .footer__bottom-element:first-child {
+    margin-bottom: 3px;
+  }
+  .footer__card-item {
+    display: block;
+  }
+  .footer__reed-mackay-logo {
+    display: none;
+  }
+}

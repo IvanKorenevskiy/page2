@@ -1,0 +1,23 @@
+.header__burger-menu {
+  width: 24px;
+  border-right: none;
+  margin-right: 24px;
+
+  .ant-menu {
+    &-submenu-arrow {
+      display: none;
+    }
+
+    &-submenu-title {
+      padding: 0;
+      width: 24px;
+      height: 24px !important;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .header__burger-menu {
+    margin-right: 16px;
+  }
+}

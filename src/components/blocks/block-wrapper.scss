@@ -1,0 +1,51 @@
+.transfer-booking__block {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14);
+  border-radius: 16px 16px 16px 16px;
+  background: rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  margin-bottom: 16px;
+
+  .block-wrapper__checkbox {
+    padding-top: 24px;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+  }
+
+  .block-wrapper__title {
+    display: flex;
+    padding: 14px 24px 11px 24px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.56);
+  }
+
+  .block-wrapper__footer {
+    padding: 0 24px 0 24px;
+    background-color: white;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .burger-menu__icon {
+    position: absolute;
+  }
+
+  .ant-menu {
+    width: 24px;
+    border-right: none;
+
+    &-submenu-arrow {
+      display: none;
+    }
+
+    &-submenu-title {
+      padding: 0;
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+

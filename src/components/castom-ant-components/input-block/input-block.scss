@@ -1,0 +1,55 @@
+.header {
+  .ant-input {
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    color: rgba(255, 255, 255, 0.88);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.56);;
+    border-radius: 4px 4px 0px 0px;
+    background: #2243A8;
+    height: 56px;
+    padding: 17px 15px 0 15px;
+  }
+
+  .castom-input__text {
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    z-index: 1;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: rgba(255, 255, 255, 0.56);
+  }
+
+  .block-wrapper__input {
+    position: relative;
+    width: 100%;
+  }
+}
+.transfer {
+  .ant-input {
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.4);
+  border: 2px solid #d9d9d9;
+  height: 48px;
+  }
+
+  .castom-input__text {
+    position: absolute;
+    padding: 0 4px 0 4px;
+    bottom: 39px;
+    left: 12px;
+    z-index: 1;
+    background-color: white;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: rgba(0, 0, 0, 0.56);
+  }
+
+  .block-wrapper__input {
+    position: relative;
+    width: 100%;
+  }
+
+}

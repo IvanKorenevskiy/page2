@@ -1,0 +1,15 @@
+.transfer-filter-form__slider {
+  display: block;
+  margin-top: 35px;
+  .ant-slider-track {
+    height: 2px;
+    background: #002688;
+  }
+  .ant-slider-handle {
+    background: #002688;
+    border: none;
+    width: 12px;
+    height: 12px;
+    margin-top: -5px;
+  }
+}

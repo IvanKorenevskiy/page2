@@ -1,0 +1,14 @@
+/.idea/
+/node_modules/
+/vendor/
+/upload
+/environments
+/build
+/dist
+/src/img/design
+.env
+.htaccess
+*.log
+hosts.yml
+package-lock.json
+yarn.lock

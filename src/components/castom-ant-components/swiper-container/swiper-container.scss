@@ -1,0 +1,58 @@
+.castom-swiper {
+  .swiper-slide {
+    width: auto;
+    padding: 6px 23px 3px 23px;
+    box-sizing: border-box;
+
+    &:last-child {
+      padding-right: 15px;
+    }
+
+    &:active {
+      border: 2px solid #002688;
+      border-radius: 50px;
+      color: #002688;
+      padding: 4px 21px 1px 21px;
+    }
+
+    .swiper-slide__link {
+      color: rgba(0, 0, 0, 0.56);
+      letter-spacing: 0.6px;
+      font-weight: bold;
+      font-size: 14px;
+
+      &:active {
+        color: #002688;
+      }
+    }
+  }
+
+  .swiper-button-disabled {
+    opacity: 0 !important;
+  }
+
+  .swiper-button-prev {
+    background-color: white;
+    left: -3px;
+
+    &:after {
+      color: rgba(0, 0, 0, 0.56);
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  .swiper-button-next {
+    background-color: white;
+    right: -3px;
+
+    &:after {
+      color: rgba(0, 0, 0, 0.56);
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+}
+  .swiper-container {
+    width: 100%;
+  }
