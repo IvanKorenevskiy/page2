@@ -1,6 +1,6 @@
 import React from "react";
 import "./date-block.scss";
-import {DatePicker} from 'antd';
+import {DatePicker , Space} from 'antd';
 import {Today} from '../../svg';
 
 
