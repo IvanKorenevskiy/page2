@@ -9,7 +9,7 @@ let suffixIcon = <SelectArrow className="castom-select__select-arrow"/>
 const CastomSelect = (props) => {
   return (
     <div className={`${props.className} castom-select`}>
-      <span className="castom-input__text">{props.text}</span>
+      <span className="castom-select__text">{props.text}</span>
       <Select
         placeholder={props.placeholder}
         suffixIcon={suffixIcon}

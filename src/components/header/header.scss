@@ -109,8 +109,11 @@
     display: flex;
     justify-content: space-between;
     padding-bottom: 24px;
-    background-color: #002688;;
-    &:before {
+    background-color: #002688;
+    box-shadow: 500px 0px 0px 0px #002688, -500px 0px 0px 0px #002688;
+
+    //другой вариант синей полосы
+    /*&:before {
       content: "";
       position: absolute;
       width: 1000%;
@@ -118,6 +121,7 @@
       height: 100%;
       background-color: #002688;
     }
+
     &:after {
       content: "";
       position: absolute;
@@ -125,7 +129,7 @@
       right: 100%;
       height: 100%;
       background-color: #002688;
-    }
+    }*/
 
     .header__container {
       z-index: 1;
@@ -182,6 +186,7 @@
   }
 
   @media (max-width: 1279px) {
+
     .header__bottom-row--media-screen-hide {
       display: none;
     }
@@ -223,6 +228,9 @@
     }
   }
   @media (max-width: 639px) {
+    .header__bottom-row {
+      box-shadow: 200px 0px 0px 0px #002688, -200px 0px 0px 0px #002688;
+    }
     .header__bottom-row--mobile-show {
       display: flex;
       flex-direction: column;

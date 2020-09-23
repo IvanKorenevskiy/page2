@@ -6,8 +6,9 @@
   &:first-child {
     margin-top: 19px;
   }
+
   .ant-checkbox {
-    margin-right: 4px;
+    margin-right: 5px;
     transform: scale(0.85);
   }
   .ant-checkbox-checked .ant-checkbox-inner {
@@ -21,5 +22,10 @@
     &:after {
       border: 1px solid #002688;
     }
+  }
+}
+.castom-check-box:hover {
+  .ant-checkbox-inner {
+    border-color: #002688;
   }
 }
