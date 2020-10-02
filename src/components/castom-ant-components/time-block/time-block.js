@@ -4,12 +4,12 @@ import {TimePicker} from 'antd';
 import {SelectArrow} from '../../svg';
 
 
-let suffixIcon = <SelectArrow className="castom-time-picker__select-arrow"/>
+let suffixIcon = <SelectArrow className="custom-time-picker__select-arrow"/>
 
-const CastomTimePicker = (props) => {
+const CustomTimePicker = (props) => {
   return (
-    <div className={`${props.className} castom-time-picker`}>
-      <span className="castom-input__text">{props.text}</span>
+    <div className={`${props.className} custom-time-picker`}>
+      <span className="custom-input__text">{props.text}</span>
       <TimePicker
         format={props.format}
         placeholder={props.placeholder}
@@ -19,4 +19,4 @@ const CastomTimePicker = (props) => {
   );
 }
 
-export default CastomTimePicker;
+export default CustomTimePicker;

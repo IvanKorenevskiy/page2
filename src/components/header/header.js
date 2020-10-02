@@ -2,12 +2,12 @@ import React from "react";
 import "./header.scss";
 import {ArrowBack, Assignment, Mail, Switch} from '../svg';
 import Image from '../img/image.png';
-import CastomSwiper from "../castom-ant-components/swiper-container/swiper-container";
-import CastomHeaderMenu from "../castom-ant-components/castom-header-menu/castom-header-menu";
-import CastomInput from "./../castom-ant-components/input-block/input-block";
-import CastomSelect from "./../castom-ant-components/select-block/select-block";
-import CastomDatePicker from "./../castom-ant-components/date-block/date-block";
-import CastomTimePicker from "./../castom-ant-components/time-block/time-block";
+import CustomSwiper from "../castom-ant-components/swiper-container/swiper-container";
+import CustomHeaderMenu from "../castom-ant-components/custom-header-menu/custom-header-menu";
+import CustomInput from "./../castom-ant-components/input-block/input-block";
+import CustomSelect from "./../castom-ant-components/select-block/select-block";
+import CustomDatePicker from "./../castom-ant-components/date-block/date-block";
+import CustomTimePicker from "./../castom-ant-components/time-block/time-block";
 import {Button} from 'antd';
 
 
@@ -28,7 +28,7 @@ const Header = (props) => {
   return (
     <div className="header">
       <div className="header__top-row">
-        <CastomHeaderMenu
+        <CustomHeaderMenu
           className="header__burger-menu"
           items={MasOfHederNavItems}
         />
@@ -48,23 +48,23 @@ const Header = (props) => {
           </a>
         </ul>
       </div>
-      <CastomSwiper
+      <CustomSwiper
         className="header__nav-container"
         items={MasOfHederNavItems}
       />
       <div className="header__bottom-row header__bottom-row--media-screen-hide">
         <div className="header__column">
-          <CastomInput
+          <CustomInput
             placeholder="Санкт-Петербург"
             text="Откуда (город)"
             className="header__input"
           />
-          <CastomInput
+          <CustomInput
             placeholder="Москва"
             text="Куда (город)"
             className="header__input"
           />
-          <CastomSelect
+          <CustomSelect
             placeholder="Местный"
             text="Язык"
             className="header__input"
@@ -72,17 +72,17 @@ const Header = (props) => {
           />
         </div>
         <div className="header__column">
-          <CastomInput
+          <CustomInput
             placeholder="Аэропорт Пулково"
             text="Откуда (место)"
             className="header__input"
           />
-          <CastomInput
+          <CustomInput
             placeholder="Отель Radisson Royal"
             text="Куда (место)"
             className="header__input"
           />
-          <CastomSelect
+          <CustomSelect
             placeholder="2 взрослых, 1 ребенок"
             text="Пассажиры"
             className="header__input"
@@ -91,12 +91,12 @@ const Header = (props) => {
         </div>
         <div className="header__column">
           <div className="header__time-date-container">
-            <CastomDatePicker
+            <CustomDatePicker
               placeholder="1 янв, пн"
               text="Дата"
               className="header__input header__input--date"
             />
-            <CastomTimePicker
+            <CustomTimePicker
               format='HH:mm'
               placeholder="00:00"
               text="Время"
@@ -114,30 +114,30 @@ const Header = (props) => {
       </div>
       <div className="header__bottom-row header__bottom-row--media-screen-show">
         <div className="header__column">
-          <CastomInput
+          <CustomInput
             placeholder="Санкт-Петербург"
             text="Откуда (город)"
             className="header__input"
           />
-          <CastomInput
+          <CustomInput
             placeholder="Москва"
             text="Куда (город)"
             className="header__input"
           />
           <div className="header__time-date-container">
-            <CastomDatePicker
+            <CustomDatePicker
               placeholder="1 янв, пн"
               text="Дата"
               className="header__input header__input--date"
             />
-            <CastomTimePicker
+            <CustomTimePicker
               format='HH:mm'
               placeholder="00:00"
               text="Время"
               className="header__input header__input--time"
             />
           </div>
-          <CastomSelect
+          <CustomSelect
             placeholder="2 взрослых, 1 ребенок"
             text="Пассажиры"
             className="header__input"
@@ -145,17 +145,17 @@ const Header = (props) => {
           />
         </div>
         <div className="header__column">
-          <CastomInput
+          <CustomInput
             placeholder="Аэропорт Пулково"
             text="Откуда (место)"
             className="header__input"
           />
-          <CastomInput
+          <CustomInput
             placeholder="Отель Radisson Royal"
             text="Куда (место)"
             className="header__input"
           />
-          <CastomSelect
+          <CustomSelect
             placeholder="Местный"
             text="Язык"
             className="header__input"
@@ -171,46 +171,46 @@ const Header = (props) => {
         </div>
       </div>
       <div className="header__bottom-row header__bottom-row--mobile-show">
-        <CastomInput
+        <CustomInput
           placeholder="Санкт-Петербург"
           text="Откуда (город)"
           className="header__input"
         />
-        <CastomInput
+        <CustomInput
           placeholder="Аэропорт Пулково"
           text="Откуда (место)"
           className="header__input"
         />
-        <CastomInput
+        <CustomInput
           placeholder="Москва"
           text="Куда (город)"
           className="header__input"
         />
-        <CastomInput
+        <CustomInput
           placeholder="Отель Radisson Royal"
           text="Куда (место)"
           className="header__input"
         />
         <div className="header__time-date-container">
-          <CastomDatePicker
+          <CustomDatePicker
             placeholder="1 янв, пн"
             text="Дата"
             className="header__input header__input--date"
           />
-          <CastomTimePicker
+          <CustomTimePicker
             format='HH:mm'
             placeholder="00:00"
             text="Время"
             className="header__input header__input--time"
           />
         </div>
-        <CastomSelect
+        <CustomSelect
           placeholder="Местный"
           text="Язык"
           className="header__input"
           value={["Местный", "Русский", "Английский"]}
         />
-        <CastomSelect
+        <CustomSelect
           placeholder="2 взрослых, 1 ребенок"
           text="Пассажиры"
           className="header__input"

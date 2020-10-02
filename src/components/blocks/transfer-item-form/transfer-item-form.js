@@ -1,6 +1,6 @@
 import React from "react";
 import "./transfer-item-form.scss";
-import CastomInput from "../../castom-ant-components/input-block/input-block";
+import CustomInput from "../../castom-ant-components/input-block/input-block";
 import {Print, Mail, Place, DirectionsCar, Group, Schedule} from '../../svg';
 
 

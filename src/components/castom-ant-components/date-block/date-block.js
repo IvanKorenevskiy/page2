@@ -4,12 +4,12 @@ import {DatePicker , Space} from 'antd';
 import {Today} from '../../svg';
 
 
-let suffixIcon = <Today className="castom-date-picker__select-arrow"/>
+let suffixIcon = <Today className="custom-date-picker__select-arrow"/>
 
-const CastomDatePicker = (props) => {
+const CustomDatePicker = (props) => {
   return (
-    <div className={`${props.className} castom-date-picker`}>
-      <span className="castom-input__text">{props.text}</span>
+    <div className={`${props.className} custom-date-picker`}>
+      <span className="custom-input__text">{props.text}</span>
       <DatePicker
         placeholder={props.placeholder}
         suffixIcon={suffixIcon}
@@ -18,4 +18,4 @@ const CastomDatePicker = (props) => {
   );
 }
 
-export default CastomDatePicker;
+export default CustomDatePicker;

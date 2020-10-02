@@ -4,7 +4,7 @@
       border-bottom: 1px solid #40a9ff
     }
   }
-  .castom-select__text {
+  .custom-select__text {
     position: absolute;
     bottom: 30px;
     left: 15px;
@@ -44,7 +44,7 @@
     .ant-select-arrow {
       right: 23px;
     }
-    .castom-select__select-arrow {
+    .custom-select__select-arrow {
       right: 17px;
       width: 9px;
       height: 12px;
@@ -56,7 +56,7 @@
 .transfer {
   .transfer__input {
     &:hover {
-      .castom-select__text {
+      .custom-select__text {
         color: #40a9ff !important;
         webkit-transition: all .4s cubic-bezier(.645,.045,.355,1);
         transition: all .4s cubic-bezier(.645,.045,.355,1);
@@ -71,7 +71,7 @@
       border: 2px solid #40a9ff
     }
   }
-  .castom-select__text {
+  .custom-select__text {
     position: absolute;
     padding: 0 4px 0 4px;
     bottom: 39px;
@@ -103,7 +103,7 @@
     .ant-select-arrow {
       right: 17px;
     }
-    .castom-select__select-arrow {
+    .custom-select__select-arrow {
       width: 9px;
       height: 12px;
       color: rgba(0, 0, 0, 0.56);

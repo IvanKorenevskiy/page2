@@ -6,7 +6,7 @@
   opacity: 0.24;
 }
 
-.castom-header-menu__logo {
+.custom-header-menu__logo {
   width: 24px;
   height: 24px;
   margin-top: 2px;
@@ -37,7 +37,8 @@
   @media (max-width: 940px) {
     width: 67px;
     height: 20px;
-    margin-left: 9px;
+    margin-left: 1%;
+    margin-top: -4px;
   }
 }
 

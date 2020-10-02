@@ -8,15 +8,14 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 .wrapper {
-  max-width: 1224px;
-  min-width: 912px;
-  width: 71.25%;
+  width: 1224px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1279px) {
   .wrapper {
     width: calc(100% - 48px);
     min-width: 0;

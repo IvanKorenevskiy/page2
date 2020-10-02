@@ -1,5 +1,5 @@
 import React from "react";
-import "./castom-header-menu.scss";
+import "./custom-header-menu.scss";
 import PropTipes from "prop-types";
 import {Menu} from 'antd';
 import {BurgerMenu} from '../../svg';
@@ -7,12 +7,12 @@ import {BurgerMenu} from '../../svg';
 
 const {SubMenu} = Menu;
 
-const CastomHeaderMenu = (props) => {
+const CustomHeaderMenu = (props) => {
   return (
-    <Menu className={`${props.className} castom-header-menu`}>
+    <Menu className={`${props.className} custom-header-menu`}>
       <SubMenu
         title={
-          <span><BurgerMenu className="castom-header-menu__logo"/></span>
+          <span><BurgerMenu className="custom-header-menu__logo"/></span>
         }
       >
         {props.items.map(NavItem => {
@@ -23,8 +23,8 @@ const CastomHeaderMenu = (props) => {
   );
 }
 
-CastomHeaderMenu.propTipes = {
+CustomHeaderMenu.propTipes = {
   items: PropTipes.arrayOf(PropTipes.object).isRequied
 }
 
-export default CastomHeaderMenu;
+export default CustomHeaderMenu;

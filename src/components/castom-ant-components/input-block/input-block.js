@@ -3,13 +3,13 @@ import "./input-block.scss";
 import {Input} from 'antd';
 
 
-const CastomInput = (props) => {
+const CustomInput = (props) => {
   return (
-    <div className={`${props.className} castom-input`}>
-      <span className="castom-input__text">{props.text}</span>
+    <div className={`${props.className} custom-input`}>
+      <span className="custom-input__text">{props.text}</span>
       <Input placeholder={props.placeholder}/>
     </div>
   );
 }
 
-export default CastomInput;
+export default CustomInput;

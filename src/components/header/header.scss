@@ -57,6 +57,10 @@
 
     .tools-container__item {
       margin-right: 24px;
+      color: rgba(0, 0, 0, 0.88);
+      &:last-child {
+        margin-right: 18px;
+      }
     }
   }
 
@@ -215,7 +219,8 @@
       margin-right: 2px;
 
       &:last-child {
-        margin-left: 16px;
+        margin-left: 10px;
+        margin-right: 18px;
       }
     }
     .tools-container__name {
@@ -237,6 +242,16 @@
     }
     .header__bottom-row--media-screen-show {
       display: none;
+    }
+    .tools-container__profile-logo {
+      margin-right: 0;
+    }
+    .tools-container__item:last-child {
+      margin-right: 0;
+
+      .tools-container__name {
+        display: none;
+      }
     }
     .tools-container__item:last-child {
       .tools-container__name {

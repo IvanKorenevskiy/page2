@@ -2,12 +2,12 @@ import React from "react";
 import "./check-box.scss";
 import {Checkbox} from 'antd';
 
-const CastomCheckBox = (props) => {
+const CustomCheckBox = (props) => {
   return (
-    <Checkbox className={`${props.className} castom-check-box`}>
+    <Checkbox className={`${props.className} custom-check-box`}>
       {props.children}
     </Checkbox>
   );
 }
 
-export default CastomCheckBox;
+export default CustomCheckBox;

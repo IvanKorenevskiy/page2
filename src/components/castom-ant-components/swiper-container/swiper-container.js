@@ -11,10 +11,10 @@ import PropTipes from "prop-types";
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
-const CastomSwiper = (props) => {
+const CustomSwiper = (props) => {
   return (
     <Swiper
-      className={`${props.className} castom-swiper`}
+      className={`${props.className} custom-swiper`}
       slidesPerView={'auto'}
       spaceBetween={4.4}
       navigation
@@ -29,8 +29,8 @@ const CastomSwiper = (props) => {
   );
 }
 
-CastomSwiper.propTipes = {
+CustomSwiper.propTipes = {
   items: PropTipes.arrayOf(PropTipes.object).isRequied
 }
 
-export default CastomSwiper;
+export default CustomSwiper;

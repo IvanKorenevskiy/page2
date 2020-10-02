@@ -1,11 +1,11 @@
 import React from "react";
-import "./castom-popover.scss";
+import "./custom-popover.scss";
 import {Popover, Button} from 'antd';
 
-const CastomPopover = (props) => {
+const CustomPopover = (props) => {
   return (
     <Popover
-      className={`${props.className} castom-popover`}
+      className={`${props.className} custom-popover`}
       placement="bottomRight"
       content={props.content}
       trigger="click">
@@ -14,4 +14,4 @@ const CastomPopover = (props) => {
   );
 }
 
-export default CastomPopover;
+export default CustomPopover;

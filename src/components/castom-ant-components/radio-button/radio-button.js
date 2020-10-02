@@ -3,12 +3,12 @@ import "./radio-button.scss";
 import {Radio} from 'antd';
 
 
-const CastomRadioButton = (props) => {
+const CustomRadioButton = (props) => {
   return (
-    <Radio value={props.value} className={`${props.className} castom-radio-button`}>
+    <Radio value={props.value} className={`${props.className} custom-radio-button`}>
       {props.children}
     </Radio>
   );
 }
 
-export default CastomRadioButton;
+export default CustomRadioButton;

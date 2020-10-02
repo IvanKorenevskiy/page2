@@ -1,13 +1,13 @@
 import React from "react";
-import "./castom-ant-slider.scss";
+import "./custom-ant-slider.scss";
 import PropTipes from "prop-types";
 import {Slider, Switch } from 'antd';
 
 
-const CastomSlider = (props) => {
+const CustomSlider = (props) => {
   return (
     <Slider
-      className={`${props.className} castom-slider`}
+      className={`${props.className} custom-slider`}
       range
       tipFormatter={null}
       defaultValue={[0, 100]}
@@ -16,4 +16,4 @@ const CastomSlider = (props) => {
 }
 
 
-export default CastomSlider;
+export default CustomSlider;
